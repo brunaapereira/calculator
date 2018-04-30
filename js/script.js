@@ -9,7 +9,6 @@ document.getElementById('calculate-button').onclick = function () {
 	let val2 = parseFloat(elem2.value); 
 
 	// Chosen operation from radio group
-	let choices = document.querySelector('input[name="operation"]');
 	let choice = document.querySelector('input[name="operation"]:checked');
 	let operation = choice.value; 
 	
