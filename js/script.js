@@ -37,7 +37,7 @@ document.getElementById('calculate-button').onclick = function () {
 		return val1 / val2;
 	}
 	}
-	// Setting the proper resultElement inner text if there isn't input numbers
+	// Setting the proper resultElement inner text if a number is not typed
 		if (val1 !== val1) {
 			resultElement.innerText = "Insira números válidos :)";
 			document.getElementById("elem-1").focus();
