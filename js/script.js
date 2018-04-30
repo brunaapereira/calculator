@@ -18,14 +18,14 @@ document.getElementById('calculate-button').onclick = function () {
 	let operationResult = getResult(val1, val2, operation);
 
 	/** Changing commas to dots
-		Arguments: two numbers */
+	Arguments: two numbers */
 	function commaToDot(val1, val2) {
 		val1.replace(",", ".");
 		val2.replace(",",".");
 	}
 	
 	/** Returning result according to the operation selected. 
-		Arguments: two numbers and one operation (to sum, subtract, multiply or divide)*/
+	Arguments: two numbers and one operation (to sum, subtract, multiply or divide)*/
 	function getResult(val1, val2, operation) {
 	if(operation === '+') {
 		return val1 + val2;
